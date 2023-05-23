@@ -1,0 +1,85 @@
+/* Header */
+.image-logo {
+  height: 70px;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* ProductCard */
+.card {
+  background: rgb(26, 25, 25);
+}
+
+.card:hover {
+  box-shadow: 0 3px 10px rgb(110, 105, 105);
+}
+
+.image-main {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background: black;
+  }
+
+  .image-main {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+  }
+}
+
+/* CartDropdown */
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+#CartCount {
+  font-size: 12px;
+  background: #ff0000;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -10px;
+}
+
+/* LoginForm */
+.login-form {
+  width: 60%;
+  margin: auto;
+  align-items: center;
+}
+
+/* CartDetail */
+.image-cart {
+  width: 70px;
+  height: 70px;
+}
+
+/* Admin ProductList */
+.image-admin {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Admin UpdateProduct */
+.image-update {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* UploadImage */
+/* .modal-backdrop {
+  background: rgba(0, 0, 0, 0.5);
+} */

@@ -1,0 +1,19 @@
+body {
+    /* background: rgb(240, 236, 236); */
+    background: rgb(26, 25, 25);
+    color: rgb(240, 236, 236);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240, 236, 236);
+}
+
+/* a:hover {
+    color: rgb(255, 251, 1)
+} */
+
+.security-icon {
+    font-size: 48px;
+    color: red
+}

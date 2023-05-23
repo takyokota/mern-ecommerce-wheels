@@ -5,7 +5,7 @@ import Cookies from 'js-cookie';
 //   ? 'http://localhost:3001'
 //   : 'http://example.com';
 
-const BASE_URL = 'https://nore-works-server.onrender.com';
+const BASE_URL = process.env.REACT_APP_SERVER_URL;
 
 const composeToken = (token) => token
   ? { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' }

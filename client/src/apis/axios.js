@@ -1,9 +1,11 @@
 import axios from 'axios';
 import Cookies from 'js-cookie';
 
-const BASE_URL = process.env.NODE_ENV === 'development'
-  ? 'http://localhost:3001'
-  : 'http://example.com';
+// const BASE_URL = process.env.NODE_ENV === 'development'
+//   ? 'http://localhost:3001'
+//   : 'http://example.com';
+
+const BASE_URL = 'https://nore-works-server.onrender.com';
 
 const composeToken = (token) => token
   ? { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' }
